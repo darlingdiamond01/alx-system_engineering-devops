@@ -1,4 +1,8 @@
-# ssh config file
+# Configuring it to our needs so that I can connect to a server without a password
 Host *
-      PasswordAuthentication no
-      IdentifyFile ~/.ssh/school
+    SendE LANG LC_*
+    HashKnownHost yes
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials no
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no

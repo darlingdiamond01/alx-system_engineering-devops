@@ -68,4 +68,5 @@ exec { 'restart service':
 service { 'nginx':
   ensure  => running,
   require => Package['nginx'],
-}
+ffffddaavr:K]
+
